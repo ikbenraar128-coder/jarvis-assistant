@@ -1,32 +1,4 @@
-# Core dependencies
-python-dotenv==1.0.0
+# Requirements for JARVIS
 
-# GUI
-# tkinter is built-in with Python
-
-# System control
-pyautogui==0.9.53
-pynput==1.7.6
-psutil==5.9.6
-
-# Windows specific
-pywin32==305
-
-# File management
-pathlib2==2.3.0
-
-# Data handling
-pydantic==2.5.0
-
-# Logging & monitoring
-loguru==0.7.2
-
-# Async operations
-aiohttp==3.9.1
-
-# JSON
-python-json-logger==2.0.7
-
-# Browser automation (optional, for future enhancements)
-playwright==1.40.0
-selenium==4.15.2
+psutil>=5.8.0
+pytest>=6.0.0
